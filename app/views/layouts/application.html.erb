@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Boatcraft</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <link href="https://fonts.googleapis.com/css?family=Acme|Karla:400,700|Prompt:300,400|Ubuntu+Condensed&display=swap" rel="stylesheet">
+
+  </head>
+
+  <header>
+  <a href='/'>Home</a>
+  <a href='/inventory'>Inventory</a>
+  <a href='/about'>About</a>
+  </header>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
