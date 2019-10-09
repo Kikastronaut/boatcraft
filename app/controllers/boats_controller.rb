@@ -4,8 +4,8 @@ class BoatsController < ApplicationController
 
   def about
   end
-  
+
   def inventory
-    @boats = Boat.all
+    @boats = Boat.new
   end
 end

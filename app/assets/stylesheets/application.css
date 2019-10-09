@@ -13,4 +13,7 @@
  *= require_tree .
  *= require_self
  */
-html
+html {
+  font-family: "Acme", sans-serif;
+  font-size: 22px;
+}

@@ -1,3 +1,13 @@
 <!DOCTYPE html>
 <html>
+
+<%= form_for(@boats) do |f| %>
+<%= f.label :name %>
+<%= f.text :picture_url %>
+<%= f.integer :number_in_stock %>
+<%= f.float :price %>
+<%= f.submit "Create" %>
+
+<% end %>
+
 </html>
