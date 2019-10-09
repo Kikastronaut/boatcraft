@@ -13,4 +13,25 @@
  *= require_tree .
  *= require_self
  */
-html
+html {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header {
+  font-family: "Bitter", serif;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  background-repeat: no-repeat;
+  height: 100px;
+}
+
+body {
+  background-position: bottom;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.main {
+  text-align: center;
+}
