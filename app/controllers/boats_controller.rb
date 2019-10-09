@@ -22,6 +22,7 @@ class BoatsController < ApplicationController
       end
     end
 
+
 private
   def boat_params
     params.require(:boat).permit(:description)
