@@ -13,6 +13,13 @@ class BoatsController < ApplicationController
     @boat = Boat.new
   end
 
+  def edit
+    @boat = Boat.find(params[:id])
+  end
+
+  def update
+  end
+
   def create
     @boat = Boat.new(boat_params)
       if @boat.save
@@ -21,6 +28,7 @@ class BoatsController < ApplicationController
         render 'new'
       end
     end
+
 
 
 private
