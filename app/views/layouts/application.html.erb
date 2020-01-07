@@ -1,5 +1,6 @@
 
 <html>
+
   <head>
     <title>Boatcraft</title>
     <%= csrf_meta_tags %>
@@ -9,6 +10,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
     <link href="https://fonts.googleapis.com/css?family=Bitter|Crimson+Text:400,700|Josefin+Sans:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700|Fondamento|Playfair+Display+SC:400,700&display=swap" rel="stylesheet">
 
   </head>
 
@@ -17,9 +19,12 @@
     <a href='/index'>Inventory</a>
     <a href='/about'>About</a>
     <a href='/boats/new'> Add Boat </a>
+    <a href='/boats/:id/edit'> Edit </a>
+
   </header>
 
   <body>
+    <div class="background-cover"></div>
     <%= yield %>
   </body>
 </html>

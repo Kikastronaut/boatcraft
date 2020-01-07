@@ -5,4 +5,4 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-b1 = Boat.create(description: 'Kayak')
+boats= Boat.create(description: 'Kayak', id: b1)

@@ -15,10 +15,19 @@
  */
 html {
   font-family: "Josefin Sans", sans-serif;
+  background-image: url("https://boatcrafts.s3.us-east-2.amazonaws.com/jessica-furtney-zhqD0tw1peA-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
+h1 {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 600;
+  color: #f7e4d5;
+  font-size: 44px;
+}
 header {
-  font-family: "Bitter", serif;
+  font-family: "Cinzel", serif;
   font-weight: bold;
   font-size: 22px;
   text-align: center;
@@ -26,10 +35,14 @@ header {
   height: 100px;
 }
 
+.background-cover {
+}
+
 body {
   background-position: bottom;
   background-size: auto;
   background-repeat: no-repeat;
+  color: #f7e4d5;
 }
 
 .main {

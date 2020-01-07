@@ -5,6 +5,8 @@
 <%= form_for(@boat) do |f| %>
   <div class="field">
     <%= f.text_area :description %><br>
+    <%= f.label "Boat Photo" %>
+    <%= f.file_field :boat_image %>
   </div>
   <div class="actions">
     <%= f.submit "Create" %>
